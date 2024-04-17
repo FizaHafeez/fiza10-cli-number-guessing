@@ -1,5 +1,3 @@
-# fiza10-cli-number-guessing
-this is a cli based number guessing game
 #! /usr/bin/env node 
 
 import inquirer from "inquirer";
@@ -27,4 +25,3 @@ if (anwers.userGuessnumber === randomNumber ) {
 } else {
     console.log("you gussed wrong number");
 }
-
